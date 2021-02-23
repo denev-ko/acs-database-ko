@@ -1,0 +1,463 @@
+[
+    {
+        "itemName": "SCP-001 속죄",
+        "itemNumber": "djkaktus-s-proposal-iii",
+        "clearance": "6",
+        "contain": "난해",
+        "secondary": "프링키팔리스",
+        "disrupt": "아미타",
+        "risk": "주목"
+    },
+    {
+        "itemName": "SCP-4485 Pg. 1",
+        "itemNumber": "SCP-4485",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "경고"
+    },
+    {
+        "itemName": "SCP-4485 Pg. 6",
+        "itemNumber": "SCP-4485/offset/5",
+        "clearance": "6",
+        "contain": "난해",
+        "secondary": "아폴리온",
+        "disrupt": "아미타",
+        "risk": "치명"
+    },
+    {
+        "itemName": "SCP-001 속죄",
+        "itemNumber": "djkaktus-s-proposal-ii",
+        "clearance": "5",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "아미타",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-5579",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-5987",
+        "clearance": "1",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-049-J",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-1233",
+        "clearance": "3",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-1507",
+        "clearance": "4",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-1730",
+        "clearance": "3",
+        "contain": "무효",
+        "secondary": "없음",
+        "disrupt": "없음",
+        "risk": "없음"
+    },
+    {
+        "itemNumber": "SCP-2075",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "경고"
+    },
+    {
+        "itemNumber": "SCP-2316",
+        "clearance": "4",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-2399",
+        "clearance": "5",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "아미타",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-2821",
+        "clearance": "4",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "아미타",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-2935",
+        "clearance": "4",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "아미타",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-2951",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "경고"
+    },
+    {
+        "itemNumber": "SCP-3396",
+        "clearance": "5",
+        "contain": "난해",
+        "secondary": "티아마트",
+        "disrupt": "아미타",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-3440",
+        "clearance": "2",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-3521",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-3529",
+        "clearance": "2",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "경고"
+    },
+    {
+        "itemNumber": "SCP-3693",
+        "clearance": "2",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-3740",
+        "clearance": "2",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-3790",
+        "clearance": "5",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-3885",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-3892",
+        "clearance": "1",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-3930",
+        "clearance": "5",
+        "contain": "난해",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-417-KO",
+        "clearance": "3",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-4217",
+        "clearance": "2",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-4290",
+        "clearance": "5",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "아미타",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-4444",
+        "clearance": "4",
+        "contain": "난해",
+        "secondary": "타이콘데로가",
+        "disrupt": "플람",
+        "risk": "경고"
+    },
+    {
+        "itemName": "SCP-4509-DEL",
+        "itemNumber": "deleted:scp-4509",
+        "clearance": "3",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-4531",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "타우미엘",
+        "disrupt": "커너크",
+        "risk": "경고"
+    },
+    {
+        "itemNumber": "SCP-4548",
+        "clearance": "4",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-4781",
+        "clearance": "3",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-4855",
+        "clearance": "2",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "경고"
+    },
+    {
+        "itemNumber": "SCP-4976",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-4991",
+        "clearance": "4",
+        "contain": "무효",
+        "secondary": "없음",
+        "disrupt": "없음",
+        "risk": "없음"
+    },
+    {
+        "itemNumber": "SCP-4999",
+        "clearance": "3",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-5004",
+        "clearance": "5",
+        "contain": "난해",
+        "secondary": "타우미엘",
+        "disrupt": "에키",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-5133",
+        "clearance": "1",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-5140",
+        "clearance": "4",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-527",
+        "clearance": "1",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-5309",
+        "clearance": "0",
+        "contain": "무효",
+        "secondary": "없음",
+        "disrupt": "없음",
+        "risk": "없음"
+    },
+    {
+        "itemNumber": "SCP-5376",
+        "clearance": "2",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-5480",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-5721",
+        "clearance": "3",
+        "contain": "난해",
+        "secondary": "케르눈노스",
+        "disrupt": "에키",
+        "risk": "위해"
+    },
+    {
+        "itemNumber": "SCP-5935",
+        "clearance": "5",
+        "contain": "난해",
+        "secondary": "타우미엘",
+        "disrupt": "아미타",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-601-KO",
+        "clearance": "4",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-602-KO",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "주의"
+    },
+    {
+        "itemNumber": "SCP-605-KO",
+        "clearance": "3",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-610-KO",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "플람",
+        "risk": "경고"
+    },
+    {
+        "itemNumber": "SCP-621-KO",
+        "clearance": "2",
+        "contain": "무효",
+        "secondary": "없음",
+        "disrupt": "없음",
+        "risk": "없음"
+    },
+    {
+        "itemNumber": "SCP-622-KO",
+        "clearance": "1",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    },
+    {
+        "itemNumber": "SCP-666-KO",
+        "clearance": "5",
+        "contain": "보류",
+        "secondary": "없음",
+        "disrupt": "없음",
+        "risk": "없음"
+    },
+    {
+        "itemNumber": "SCP-678-KO",
+        "clearance": "3",
+        "contain": "유클리드",
+        "secondary": "없음",
+        "disrupt": "커너크",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-935-KO",
+        "clearance": "1",
+        "contain": "케테르",
+        "secondary": "없음",
+        "disrupt": "에키",
+        "risk": "치명"
+    },
+    {
+        "itemNumber": "SCP-942",
+        "clearance": "2",
+        "contain": "안전",
+        "secondary": "없음",
+        "disrupt": "암흑",
+        "risk": "주목"
+    }
+]

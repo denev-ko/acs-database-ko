@@ -1,0 +1,227 @@
+::-webkit-scrollbar {
+    width: 0.5rem !important;
+}
+
+:root {
+    --five-color: 196,2,51;
+    --four-color: 255,109,0;
+    --three-color: 255,211,0;
+    --two-color: 0,135,189;
+    --one-color: 0,159,107;
+    --title-font: "Poppins", sans-serif;
+    scrollbar-width: thin;
+}
+
+html,
+body,
+html *,
+body * {
+    overflow: visible !important;    
+}
+
+html, body, table {
+    width: -webkit-calc(100vw - (100vw - 100%));
+    width: -moz-calc(100vw - (100vw - 100%));
+    width: calc(100vw - (100vw - 100%));
+    max-width: -webkit-calc(100vw - (100vw - 100%));
+    max-width: -moz-calc(100vw - (100vw - 100%));
+    max-width: calc(100vw - (100vw - 100%));
+}
+
+body {
+    background-image: initial;
+    background-color: rgba(0,0,0,0);
+}
+
+table * {
+    text-transform: capitalize;
+}
+
+.table {
+    max-width: -webkit-calc(100vw - (100vw - 100%)) !important;
+    max-width: -moz-calc(100vw - (100vw - 100%)) !important;
+    max-width: calc(100vw - (100vw - 100%)) !important;
+}
+
+table.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(252, 252, 252);
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+}
+
+.fixed-table-toolbar div:first-of-type {
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+       -moz-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    padding: 0 1rem;
+}
+
+th {   
+    font-size: 0.8rem;
+    background-color: rgb(252, 252, 252);
+    background-color: rgb(var(--white-monochrome, 252, 252, 252));
+}
+
+
+td[class*="보류"],
+#table > tbody > tr > td:nth-of-type(4):not(.없음) {
+    background-color: rgba(12, 12, 12 ,1);
+    background-color: rgba(var(--black-monochrome,12, 12, 12),1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(252, 252, 252 ,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(252, 252, 252 ,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(252, 252, 252 ,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--white-monochrome, 252, 252, 252),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--white-monochrome, 252, 252, 252),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--white-monochrome, 252, 252, 252),1);
+    color: rgb(252,252,252);
+    color: rgb(var(--white-monochrome, 252, 252, 252));
+}
+
+td[class*="무효"] {
+    background-color: rgba(66, 66, 72 ,0.15);
+    background-color: rgba(var(--gray-monochrome, 66, 66, 72),0.25);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--gray-monochrome, 66, 66, 72),1);
+}
+
+td[class*="해명"] {
+    background-color: rgba(66, 66, 72 ,0.15);
+    background-color: rgba(var(--black-monochrome, 12, 12, 12),0.15);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--black-monochrome, 12, 12, 12),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--black-monochrome, 12, 12, 12),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--black-monochrome, 12, 12, 12),1);
+}
+
+td[class*="난해"] {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(66, 66, 72 ,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--black-monochrome, 12, 12, 12),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--black-monochrome, 12, 12, 12),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--black-monochrome, 12, 12, 12),1);
+    position: relative;
+}
+
+td[class*="난해"]::after {
+    content: "➠";
+    width: 1em;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0.5em;
+    font-size: 2em;
+}
+
+td[class*="안전"],
+td.무제한,
+td.암흑,
+td.주목 {
+    background-color: rgba(0,159,107,0.15);
+    background-color: rgba(var(--one-color),0.15);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(0,159,107,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(0,159,107,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(0,159,107,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--one-color),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--one-color),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--one-color),1);
+}
+
+td.제한,
+td.플람,
+td.주의 {
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(0,135,189,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(0,135,189,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(0,135,189,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--two-color),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--two-color),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--two-color),1);
+    background-color: rgba(0,135,189,0.15);
+    background-color: rgba(var(--two-color),0.15);
+}
+
+td[class*="유클리드"],
+td.신임,
+td.커너크,
+td.경고 {
+    background-color: rgba(255,211,0,0.15);
+    background-color: rgba(var(--three-color),0.15);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(255,211,0,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(255,211,0,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(255,211,0,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--three-color),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--three-color),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--three-color),1);
+}
+
+td.비밀,
+td.에키,
+td.위해 {
+    background-color: rgba(255,109,0,0.15);
+    background-color: rgba(var(--four-color),0.15);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(255,109,0,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(255,109,0,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(255,109,0,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--four-color),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--four-color),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--four-color),1);
+}
+
+td[class*="케테르"],
+td.극비,
+td.아미타,
+td.치명 {
+    background-color: rgba(196,2,51,0.15);
+    background-color: rgba(var(--five-color),0.15);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(196,2,51,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(196,2,51,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(196,2,51,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--five-color),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--five-color),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--five-color),1);
+}
+
+td.우주극비 {
+    background-color: rgb(133, 0, 5);
+    background-color: rgb(var(--swatch-primary, 133, 0, 5));
+    background-image: url("http://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/galactic.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-blend-mode: overlay;
+    color: rgb(252, 252, 252);
+    color: rgb(var(--white-monochrome, 252, 252, 252));
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(133, 0, 5,1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(133, 0, 5,1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(133, 0, 5,1);
+    -webkit-box-shadow: inset 0.5rem 0 0 0 rgba(var(--swatch-primary, 133, 0, 5),1);
+       -moz-box-shadow: inset 0.5rem 0 0 0 rgba(var(--swatch-primary, 133, 0, 5),1);
+            box-shadow: inset 0.5rem 0 0 0 rgba(var(--swatch-primary, 133, 0, 5),1);
+}
+
+.form-control {
+    font-feature-settings: "lnum", "kern", "clig", "calt";
+}
